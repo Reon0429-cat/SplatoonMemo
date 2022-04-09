@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB23C69428016BFB00B37ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69328016BFB00B37ECB /* AppDelegate.swift */; };
+		AB23C69628016BFB00B37ECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69528016BFB00B37ECB /* SceneDelegate.swift */; };
+		AB23C69828016BFB00B37ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69728016BFB00B37ECB /* ViewController.swift */; };
+		AB23C69B28016BFB00B37ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69928016BFB00B37ECB /* Main.storyboard */; };
+		AB23C69D28016BFC00B37ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69C28016BFC00B37ECB /* Assets.xcassets */; };
+		AB23C6A028016BFC00B37ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */; };
+		AB23C6AB28016BFC00B37ECB /* SplatoonMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6AA28016BFC00B37ECB /* SplatoonMemoTests.swift */; };
+		AB23C6B528016BFD00B37ECB /* SplatoonMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6B428016BFD00B37ECB /* SplatoonMemoUITests.swift */; };
+		AB23C6B728016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB23C6A728016BFC00B37ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB23C68828016BFB00B37ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB23C68F28016BFB00B37ECB;
+			remoteInfo = SplatoonMemo;
+		};
+		AB23C6B128016BFD00B37ECB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB23C68828016BFB00B37ECB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB23C68F28016BFB00B37ECB;
+			remoteInfo = SplatoonMemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB23C69028016BFB00B37ECB /* SplatoonMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplatoonMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB23C69328016BFB00B37ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AB23C69528016BFB00B37ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AB23C69728016BFB00B37ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB23C69A28016BFB00B37ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AB23C69C28016BFC00B37ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AB23C69F28016BFC00B37ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AB23C6A128016BFC00B37ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB23C6A628016BFC00B37ECB /* SplatoonMemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplatoonMemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB23C6AA28016BFC00B37ECB /* SplatoonMemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatoonMemoTests.swift; sourceTree = "<group>"; };
+		AB23C6B028016BFD00B37ECB /* SplatoonMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplatoonMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB23C6B428016BFD00B37ECB /* SplatoonMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatoonMemoUITests.swift; sourceTree = "<group>"; };
+		AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatoonMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB23C68D28016BFB00B37ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6A328016BFC00B37ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6AD28016BFD00B37ECB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB23C68728016BFB00B37ECB = {
+			isa = PBXGroup;
+			children = (
+				AB23C69228016BFB00B37ECB /* SplatoonMemo */,
+				AB23C6A928016BFC00B37ECB /* SplatoonMemoTests */,
+				AB23C6B328016BFD00B37ECB /* SplatoonMemoUITests */,
+				AB23C69128016BFB00B37ECB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB23C69128016BFB00B37ECB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C69028016BFB00B37ECB /* SplatoonMemo.app */,
+				AB23C6A628016BFC00B37ECB /* SplatoonMemoTests.xctest */,
+				AB23C6B028016BFD00B37ECB /* SplatoonMemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB23C69228016BFB00B37ECB /* SplatoonMemo */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C69328016BFB00B37ECB /* AppDelegate.swift */,
+				AB23C69528016BFB00B37ECB /* SceneDelegate.swift */,
+				AB23C69728016BFB00B37ECB /* ViewController.swift */,
+				AB23C69928016BFB00B37ECB /* Main.storyboard */,
+				AB23C69C28016BFC00B37ECB /* Assets.xcassets */,
+				AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */,
+				AB23C6A128016BFC00B37ECB /* Info.plist */,
+			);
+			path = SplatoonMemo;
+			sourceTree = "<group>";
+		};
+		AB23C6A928016BFC00B37ECB /* SplatoonMemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6AA28016BFC00B37ECB /* SplatoonMemoTests.swift */,
+			);
+			path = SplatoonMemoTests;
+			sourceTree = "<group>";
+		};
+		AB23C6B328016BFD00B37ECB /* SplatoonMemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6B428016BFD00B37ECB /* SplatoonMemoUITests.swift */,
+				AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */,
+			);
+			path = SplatoonMemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB23C68F28016BFB00B37ECB /* SplatoonMemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB23C6BA28016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemo" */;
+			buildPhases = (
+				AB23C68C28016BFB00B37ECB /* Sources */,
+				AB23C68D28016BFB00B37ECB /* Frameworks */,
+				AB23C68E28016BFB00B37ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SplatoonMemo;
+			productName = SplatoonMemo;
+			productReference = AB23C69028016BFB00B37ECB /* SplatoonMemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB23C6A528016BFC00B37ECB /* SplatoonMemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB23C6BD28016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemoTests" */;
+			buildPhases = (
+				AB23C6A228016BFC00B37ECB /* Sources */,
+				AB23C6A328016BFC00B37ECB /* Frameworks */,
+				AB23C6A428016BFC00B37ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB23C6A828016BFC00B37ECB /* PBXTargetDependency */,
+			);
+			name = SplatoonMemoTests;
+			productName = SplatoonMemoTests;
+			productReference = AB23C6A628016BFC00B37ECB /* SplatoonMemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AB23C6AF28016BFD00B37ECB /* SplatoonMemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB23C6C028016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemoUITests" */;
+			buildPhases = (
+				AB23C6AC28016BFD00B37ECB /* Sources */,
+				AB23C6AD28016BFD00B37ECB /* Frameworks */,
+				AB23C6AE28016BFD00B37ECB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB23C6B228016BFD00B37ECB /* PBXTargetDependency */,
+			);
+			name = SplatoonMemoUITests;
+			productName = SplatoonMemoUITests;
+			productReference = AB23C6B028016BFD00B37ECB /* SplatoonMemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB23C68828016BFB00B37ECB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					AB23C68F28016BFB00B37ECB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+					AB23C6A528016BFC00B37ECB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AB23C68F28016BFB00B37ECB;
+					};
+					AB23C6AF28016BFD00B37ECB = {
+						CreatedOnToolsVersion = 13.3;
+						TestTargetID = AB23C68F28016BFB00B37ECB;
+					};
+				};
+			};
+			buildConfigurationList = AB23C68B28016BFB00B37ECB /* Build configuration list for PBXProject "SplatoonMemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AB23C68728016BFB00B37ECB;
+			productRefGroup = AB23C69128016BFB00B37ECB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB23C68F28016BFB00B37ECB /* SplatoonMemo */,
+				AB23C6A528016BFC00B37ECB /* SplatoonMemoTests */,
+				AB23C6AF28016BFD00B37ECB /* SplatoonMemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB23C68E28016BFB00B37ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB23C6A028016BFC00B37ECB /* LaunchScreen.storyboard in Resources */,
+				AB23C69D28016BFC00B37ECB /* Assets.xcassets in Resources */,
+				AB23C69B28016BFB00B37ECB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6A428016BFC00B37ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6AE28016BFD00B37ECB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB23C68C28016BFB00B37ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB23C69828016BFB00B37ECB /* ViewController.swift in Sources */,
+				AB23C69428016BFB00B37ECB /* AppDelegate.swift in Sources */,
+				AB23C69628016BFB00B37ECB /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6A228016BFC00B37ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB23C6AB28016BFC00B37ECB /* SplatoonMemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB23C6AC28016BFD00B37ECB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB23C6B728016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift in Sources */,
+				AB23C6B528016BFD00B37ECB /* SplatoonMemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB23C6A828016BFC00B37ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB23C68F28016BFB00B37ECB /* SplatoonMemo */;
+			targetProxy = AB23C6A728016BFC00B37ECB /* PBXContainerItemProxy */;
+		};
+		AB23C6B228016BFD00B37ECB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB23C68F28016BFB00B37ECB /* SplatoonMemo */;
+			targetProxy = AB23C6B128016BFD00B37ECB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB23C69928016BFB00B37ECB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB23C69A28016BFB00B37ECB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB23C69F28016BFC00B37ECB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB23C6B828016BFD00B37ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AB23C6B928016BFD00B37ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AB23C6BB28016BFD00B37ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SplatoonMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AB23C6BC28016BFD00B37ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SplatoonMemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AB23C6BE28016BFD00B37ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplatoonMemo.app/SplatoonMemo";
+			};
+			name = Debug;
+		};
+		AB23C6BF28016BFD00B37ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SplatoonMemo.app/SplatoonMemo";
+			};
+			name = Release;
+		};
+		AB23C6C128016BFD00B37ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplatoonMemo;
+			};
+			name = Debug;
+		};
+		AB23C6C228016BFD00B37ECB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 242KS3V77L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = oonishireon.SplatoonMemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SplatoonMemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB23C68B28016BFB00B37ECB /* Build configuration list for PBXProject "SplatoonMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB23C6B828016BFD00B37ECB /* Debug */,
+				AB23C6B928016BFD00B37ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB23C6BA28016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB23C6BB28016BFD00B37ECB /* Debug */,
+				AB23C6BC28016BFD00B37ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB23C6BD28016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB23C6BE28016BFD00B37ECB /* Debug */,
+				AB23C6BF28016BFD00B37ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB23C6C028016BFD00B37ECB /* Build configuration list for PBXNativeTarget "SplatoonMemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB23C6C128016BFD00B37ECB /* Debug */,
+				AB23C6C228016BFD00B37ECB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB23C68828016BFB00B37ECB /* Project object */;
+}
