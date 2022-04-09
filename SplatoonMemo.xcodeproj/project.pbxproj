@@ -20,6 +20,15 @@
 		AB23C6CF28016F3D00B37ECB /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6CE28016F3D00B37ECB /* Setting.storyboard */; };
 		AB23C6D228016FDD00B37ECB /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6D128016FDD00B37ECB /* Top.storyboard */; };
 		AB23C6D428016FE200B37ECB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6D328016FE200B37ECB /* TopViewController.swift */; };
+		AB23C6D828019A8700B37ECB /* SplaRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6D728019A8700B37ECB /* SplaRule.swift */; };
+		AB23C6DD2801A03D00B37ECB /* RuleSelectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6DB2801A03D00B37ECB /* RuleSelectionTableViewCell.swift */; };
+		AB23C6DE2801A03D00B37ECB /* RuleSelectionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6DC2801A03D00B37ECB /* RuleSelectionTableViewCell.xib */; };
+		AB23C6F12801A0A300B37ECB /* UITableViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6E62801A0A300B37ECB /* UITableViewCell+Extension.swift */; };
+		AB23C6F22801A0A300B37ECB /* UICollectionView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6E72801A0A300B37ECB /* UICollectionView+Extension.swift */; };
+		AB23C6F32801A0A300B37ECB /* UITableViewHeaderFooterView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6E82801A0A300B37ECB /* UITableViewHeaderFooterView+Extension.swift */; };
+		AB23C6F52801A0A300B37ECB /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6EA2801A0A300B37ECB /* UITableView+Extension.swift */; };
+		AB23C6F62801A0A300B37ECB /* UICollectionViewCell+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6EB2801A0A300B37ECB /* UICollectionViewCell+Extension.swift */; };
+		AB23C6F82801A11A00B37ECB /* NSObjectProtocol+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6F72801A11A00B37ECB /* NSObjectProtocol+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +66,15 @@
 		AB23C6CE28016F3D00B37ECB /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
 		AB23C6D128016FDD00B37ECB /* Top.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Top.storyboard; sourceTree = "<group>"; };
 		AB23C6D328016FE200B37ECB /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
+		AB23C6D728019A8700B37ECB /* SplaRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplaRule.swift; sourceTree = "<group>"; };
+		AB23C6DB2801A03D00B37ECB /* RuleSelectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleSelectionTableViewCell.swift; sourceTree = "<group>"; };
+		AB23C6DC2801A03D00B37ECB /* RuleSelectionTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RuleSelectionTableViewCell.xib; sourceTree = "<group>"; };
+		AB23C6E62801A0A300B37ECB /* UITableViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewCell+Extension.swift"; sourceTree = "<group>"; };
+		AB23C6E72801A0A300B37ECB /* UICollectionView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Extension.swift"; sourceTree = "<group>"; };
+		AB23C6E82801A0A300B37ECB /* UITableViewHeaderFooterView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableViewHeaderFooterView+Extension.swift"; sourceTree = "<group>"; };
+		AB23C6EA2801A0A300B37ECB /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		AB23C6EB2801A0A300B37ECB /* UICollectionViewCell+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionViewCell+Extension.swift"; sourceTree = "<group>"; };
+		AB23C6F72801A11A00B37ECB /* NSObjectProtocol+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObjectProtocol+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +125,7 @@
 		AB23C69228016BFB00B37ECB /* SplatoonMemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB23C6D528019A5200B37ECB /* Models */,
 				AB23C6D028016FD700B37ECB /* Top */,
 				AB23C6CB28016F2B00B37ECB /* Setting */,
 				AB23C6C328016CC700B37ECB /* RuleSelection */,
@@ -115,6 +134,7 @@
 				AB23C69C28016BFC00B37ECB /* Assets.xcassets */,
 				AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */,
 				AB23C6A128016BFC00B37ECB /* Info.plist */,
+				AB23C6DF2801A09A00B37ECB /* Extensions */,
 			);
 			path = SplatoonMemo;
 			sourceTree = "<group>";
@@ -141,6 +161,8 @@
 			children = (
 				AB23C6C428016CEA00B37ECB /* RuleSelectionViewController.swift */,
 				AB23C6C628016CEF00B37ECB /* RuleSelection.storyboard */,
+				AB23C6DB2801A03D00B37ECB /* RuleSelectionTableViewCell.swift */,
+				AB23C6DC2801A03D00B37ECB /* RuleSelectionTableViewCell.xib */,
 			);
 			path = RuleSelection;
 			sourceTree = "<group>";
@@ -161,6 +183,35 @@
 				AB23C6D128016FDD00B37ECB /* Top.storyboard */,
 			);
 			path = Top;
+			sourceTree = "<group>";
+		};
+		AB23C6D528019A5200B37ECB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6D728019A8700B37ECB /* SplaRule.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		AB23C6DF2801A09A00B37ECB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6F72801A11A00B37ECB /* NSObjectProtocol+Extension.swift */,
+				AB23C6E02801A0A300B37ECB /* UIKit+Extension */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		AB23C6E02801A0A300B37ECB /* UIKit+Extension */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6E62801A0A300B37ECB /* UITableViewCell+Extension.swift */,
+				AB23C6E72801A0A300B37ECB /* UICollectionView+Extension.swift */,
+				AB23C6E82801A0A300B37ECB /* UITableViewHeaderFooterView+Extension.swift */,
+				AB23C6EA2801A0A300B37ECB /* UITableView+Extension.swift */,
+				AB23C6EB2801A0A300B37ECB /* UICollectionViewCell+Extension.swift */,
+			);
+			path = "UIKit+Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,6 +318,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB23C6DE2801A03D00B37ECB /* RuleSelectionTableViewCell.xib in Resources */,
 				AB23C6A028016BFC00B37ECB /* LaunchScreen.storyboard in Resources */,
 				AB23C6C728016CEF00B37ECB /* RuleSelection.storyboard in Resources */,
 				AB23C69D28016BFC00B37ECB /* Assets.xcassets in Resources */,
@@ -296,11 +348,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB23C6DD2801A03D00B37ECB /* RuleSelectionTableViewCell.swift in Sources */,
 				AB23C69428016BFB00B37ECB /* AppDelegate.swift in Sources */,
+				AB23C6F12801A0A300B37ECB /* UITableViewCell+Extension.swift in Sources */,
 				AB23C69628016BFB00B37ECB /* SceneDelegate.swift in Sources */,
+				AB23C6F52801A0A300B37ECB /* UITableView+Extension.swift in Sources */,
 				AB23C6C528016CEA00B37ECB /* RuleSelectionViewController.swift in Sources */,
+				AB23C6F62801A0A300B37ECB /* UICollectionViewCell+Extension.swift in Sources */,
 				AB23C6CD28016F3800B37ECB /* SettingViewController.swift in Sources */,
+				AB23C6F22801A0A300B37ECB /* UICollectionView+Extension.swift in Sources */,
 				AB23C6D428016FE200B37ECB /* TopViewController.swift in Sources */,
+				AB23C6F82801A11A00B37ECB /* NSObjectProtocol+Extension.swift in Sources */,
+				AB23C6F32801A0A300B37ECB /* UITableViewHeaderFooterView+Extension.swift in Sources */,
+				AB23C6D828019A8700B37ECB /* SplaRule.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

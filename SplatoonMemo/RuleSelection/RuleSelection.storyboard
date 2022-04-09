@@ -33,6 +33,9 @@
                     <navigationItem key="navigationItem" id="B5a-Ds-ZAj">
                         <barButtonItem key="rightBarButtonItem" title="編集" id="6mp-Dv-4hJ"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="tableView" destination="NfD-Gt-cvT" id="Dxi-JN-tMf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ief-a0-LHa" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
