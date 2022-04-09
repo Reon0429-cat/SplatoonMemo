@@ -9,13 +9,17 @@
 /* Begin PBXBuildFile section */
 		AB23C69428016BFB00B37ECB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69328016BFB00B37ECB /* AppDelegate.swift */; };
 		AB23C69628016BFB00B37ECB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69528016BFB00B37ECB /* SceneDelegate.swift */; };
-		AB23C69828016BFB00B37ECB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C69728016BFB00B37ECB /* ViewController.swift */; };
-		AB23C69B28016BFB00B37ECB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69928016BFB00B37ECB /* Main.storyboard */; };
 		AB23C69D28016BFC00B37ECB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69C28016BFC00B37ECB /* Assets.xcassets */; };
 		AB23C6A028016BFC00B37ECB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */; };
 		AB23C6AB28016BFC00B37ECB /* SplatoonMemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6AA28016BFC00B37ECB /* SplatoonMemoTests.swift */; };
 		AB23C6B528016BFD00B37ECB /* SplatoonMemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6B428016BFD00B37ECB /* SplatoonMemoUITests.swift */; };
 		AB23C6B728016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */; };
+		AB23C6C528016CEA00B37ECB /* RuleSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6C428016CEA00B37ECB /* RuleSelectionViewController.swift */; };
+		AB23C6C728016CEF00B37ECB /* RuleSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6C628016CEF00B37ECB /* RuleSelection.storyboard */; };
+		AB23C6CD28016F3800B37ECB /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6CC28016F3800B37ECB /* SettingViewController.swift */; };
+		AB23C6CF28016F3D00B37ECB /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6CE28016F3D00B37ECB /* Setting.storyboard */; };
+		AB23C6D228016FDD00B37ECB /* Top.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB23C6D128016FDD00B37ECB /* Top.storyboard */; };
+		AB23C6D428016FE200B37ECB /* TopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB23C6D328016FE200B37ECB /* TopViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +43,6 @@
 		AB23C69028016BFB00B37ECB /* SplatoonMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SplatoonMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB23C69328016BFB00B37ECB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AB23C69528016BFB00B37ECB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AB23C69728016BFB00B37ECB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AB23C69A28016BFB00B37ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB23C69C28016BFC00B37ECB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB23C69F28016BFC00B37ECB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB23C6A128016BFC00B37ECB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +51,12 @@
 		AB23C6B028016BFD00B37ECB /* SplatoonMemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SplatoonMemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB23C6B428016BFD00B37ECB /* SplatoonMemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatoonMemoUITests.swift; sourceTree = "<group>"; };
 		AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplatoonMemoUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AB23C6C428016CEA00B37ECB /* RuleSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RuleSelectionViewController.swift; sourceTree = "<group>"; };
+		AB23C6C628016CEF00B37ECB /* RuleSelection.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RuleSelection.storyboard; sourceTree = "<group>"; };
+		AB23C6CC28016F3800B37ECB /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		AB23C6CE28016F3D00B37ECB /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		AB23C6D128016FDD00B37ECB /* Top.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Top.storyboard; sourceTree = "<group>"; };
+		AB23C6D328016FE200B37ECB /* TopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +107,11 @@
 		AB23C69228016BFB00B37ECB /* SplatoonMemo */ = {
 			isa = PBXGroup;
 			children = (
+				AB23C6D028016FD700B37ECB /* Top */,
+				AB23C6CB28016F2B00B37ECB /* Setting */,
+				AB23C6C328016CC700B37ECB /* RuleSelection */,
 				AB23C69328016BFB00B37ECB /* AppDelegate.swift */,
 				AB23C69528016BFB00B37ECB /* SceneDelegate.swift */,
-				AB23C69728016BFB00B37ECB /* ViewController.swift */,
-				AB23C69928016BFB00B37ECB /* Main.storyboard */,
 				AB23C69C28016BFC00B37ECB /* Assets.xcassets */,
 				AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */,
 				AB23C6A128016BFC00B37ECB /* Info.plist */,
@@ -125,6 +134,33 @@
 				AB23C6B628016BFD00B37ECB /* SplatoonMemoUITestsLaunchTests.swift */,
 			);
 			path = SplatoonMemoUITests;
+			sourceTree = "<group>";
+		};
+		AB23C6C328016CC700B37ECB /* RuleSelection */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6C428016CEA00B37ECB /* RuleSelectionViewController.swift */,
+				AB23C6C628016CEF00B37ECB /* RuleSelection.storyboard */,
+			);
+			path = RuleSelection;
+			sourceTree = "<group>";
+		};
+		AB23C6CB28016F2B00B37ECB /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6CC28016F3800B37ECB /* SettingViewController.swift */,
+				AB23C6CE28016F3D00B37ECB /* Setting.storyboard */,
+			);
+			path = Setting;
+			sourceTree = "<group>";
+		};
+		AB23C6D028016FD700B37ECB /* Top */ = {
+			isa = PBXGroup;
+			children = (
+				AB23C6D328016FE200B37ECB /* TopViewController.swift */,
+				AB23C6D128016FDD00B37ECB /* Top.storyboard */,
+			);
+			path = Top;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AB23C6A028016BFC00B37ECB /* LaunchScreen.storyboard in Resources */,
+				AB23C6C728016CEF00B37ECB /* RuleSelection.storyboard in Resources */,
 				AB23C69D28016BFC00B37ECB /* Assets.xcassets in Resources */,
-				AB23C69B28016BFB00B37ECB /* Main.storyboard in Resources */,
+				AB23C6CF28016F3D00B37ECB /* Setting.storyboard in Resources */,
+				AB23C6D228016FDD00B37ECB /* Top.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB23C69828016BFB00B37ECB /* ViewController.swift in Sources */,
 				AB23C69428016BFB00B37ECB /* AppDelegate.swift in Sources */,
 				AB23C69628016BFB00B37ECB /* SceneDelegate.swift in Sources */,
+				AB23C6C528016CEA00B37ECB /* RuleSelectionViewController.swift in Sources */,
+				AB23C6CD28016F3800B37ECB /* SettingViewController.swift in Sources */,
+				AB23C6D428016FE200B37ECB /* TopViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,14 +337,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		AB23C69928016BFB00B37ECB /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AB23C69A28016BFB00B37ECB /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AB23C69E28016BFC00B37ECB /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -442,7 +474,7 @@
 				INFOPLIST_FILE = SplatoonMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Top;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -454,7 +486,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -470,7 +502,7 @@
 				INFOPLIST_FILE = SplatoonMemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = Top;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -482,7 +514,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

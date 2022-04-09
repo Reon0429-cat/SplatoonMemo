@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  RuleSelectionViewController.swift
 //  SplatoonMemo
 //
 //  Created by 大西玲音 on 2022/04/09.
@@ -7,13 +7,10 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
+class RuleSelectionViewController: UIViewController {
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
     }
-
-
+    
 }
-
